@@ -2108,7 +2108,7 @@
 
 			@media screen and (max-width: 736px) {
 
-				.flex.flex-3 .image2 {
+				.flex.flex-3 .image, .image2{
 					width: 60%;
 					margin-bottom: 2em;
 					/*max-width: 60%;
@@ -2473,13 +2473,8 @@
 				height: 300px;
 				width: 450px;
 				margin: 10px;
-				transition: all 0.5s;
 		
 			}
-				.image2 img:hover{
-
-					transform: scale(1.3);
-				}
 
 
 
