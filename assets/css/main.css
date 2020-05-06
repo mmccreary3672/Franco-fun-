@@ -2108,7 +2108,7 @@
 
 			@media screen and (max-width: 736px) {
 
-				.flex.flex-3 .image, .image2{
+				.flex.flex-3 .image/*, .image2*/{
 					width: 60%;
 					margin-bottom: 2em;
 					/*max-width: 60%;
@@ -2119,7 +2119,7 @@
 					margin-bottom: 2em;
 				}
 
-					.flex.flex-3 .col .image, .image2 {
+					.flex.flex-3 .col .image/*, .image2*/ {
 						max-width: 60%;
 						margin: 0 auto 2em auto;
 					}
